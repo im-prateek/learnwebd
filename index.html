@@ -6,7 +6,54 @@
     <title>Document</title>
 </head>
 <body>
-    <p>this is my last project</p>
-    <p>new change</p>
+    <h2>Event Registratoin</h2>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+        <br>
+
+        <label for="Emailid">Email-ID</label>
+        <input type="email" id="Emailid" name="Emailid">
+        <br>
+
+        <label for="phone">Phone NO</label>
+        <input type="tel" id="phone" name="phone">
+        <br>
+
+        <label for="occupationtype">Occupation</label>
+        <select name="occupationtype" id="occupationtype">
+            <option value="student">Student</option>
+            <option value="professional">Professional</option>
+            <option value="other">Other</option>
+        </select>
+
+        <br>
+        <br>
+
+        
+        <fieldset>
+            <legend>Topic of interest</legend>
+
+            <label for="checkbox1">HTML</label>
+            <input type="checkbox" name="checkbox" id="checkbox1">
+
+            <label for="checkbox2">CSS</label>
+            <input type="checkbox" name="checkbox" id="checkbox2">
+
+            <label for="checkbox3">JAVASCRIPT</label>
+            <input type="checkbox" name="checkbox" id="checkbox3">
+        </fieldset>
+
+        <br>
+        <br>
+        
+        <label for="textarea1">Comments</label>
+        <br>
+        <textarea name="textarea1" id="textarea1" rows="5" cols="20">write your thoughts</textarea>
+
+        <br>
+
+        <input type="submit" value="Register">
+    </form>
 </body>
 </html>
